@@ -1,1 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: hsl(216, 50%, 16%);
+    box-sizing: border-box;
+    padding: 1em;
+    max-width: 339px;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+}
+
+.value_time {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5em 0;
+}
+
+.ethereum {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding-right: 0.25em;
+}
+
+hr {
+    border-color: hsl(215, 32%, 27%);
+    border-style: solid;
+    margin: 0;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 2em;
+    height: 2em;
+    margin: 1em 1em 1em 0;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+span {
+    color:hsl(0, 0%, 100%);
+}
