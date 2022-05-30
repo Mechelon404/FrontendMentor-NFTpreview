@@ -24,20 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./images/screenshot-solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github repo](https://github.com/Mechelon404/FrontendMentor-NFTpreview)
+- Live Site URL: [NFT preview live](https://mechelon404.github.io/FrontendMentor-NFTpreview/)
 
 ## My process
 
@@ -48,6 +40,36 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 
 ### What I learned
+
+Biggest challenge was to position overlay correctly and add hover effect to image
+```css
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease;
+}
+
+.viewed-icon {
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.overlay:hover {
+    background-color: rgba(0,255,247,0.5);
+    cursor: pointer;
+}
+
+.overlay:hover .viewed-icon {
+    opacity: 1;
+}
+```
 
 Learned how to style the horizontal html divider line
 ```css
@@ -70,6 +92,5 @@ Learned how to create circular border around picture
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Mechelon404](https://github.com/Mechelon404)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Mechelon404)
