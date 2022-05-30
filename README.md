@@ -93,4 +93,4 @@ Learned how to create circular border around picture
 ## Author
 
 - Website - [Mechelon404](https://github.com/Mechelon404)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Mechelon404)
+- Frontend Mentor - [@Mechelon404](https://www.frontendmentor.io/profile/Mechelon404)
