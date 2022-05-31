@@ -18,11 +18,13 @@ main {
     box-sizing: border-box;
     padding: 1em;
     max-width: calc(375px - 2em);
-    border-radius: 20px;
+    border-radius: 1em;
 }
 
 .image-container {
     position: relative;
+    border-radius: .5em;
+    overflow: hidden;
 }
 
 .equilibrium-logo {
@@ -61,6 +63,7 @@ h1 {
     font-size: 22px;
     color: hsl(0, 0%, 100%);
     margin: 1em 0;
+    transition: .5s ease;
 }
 
 h1:hover,
@@ -112,4 +115,5 @@ hr {
 
 span {
     color:hsl(0, 0%, 100%);
+    transition: .5s ease;
 }
